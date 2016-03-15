@@ -1,0 +1,22 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c> 
+  RewriteEngine on
+  
+  RewriteCond %{REQUEST_URI} ^/admin/$
+  RewriteRule ^(admin)/$ /$1 [R=301,L]
+  RewriteCond %{REQUEST_URI} ^/admin
+  RewriteRule ^admin(/.+)?$ /backend/web/$1 [L,PT]
+  
+  RewriteCond %{REQUEST_URI} !^public
+  RewriteRule ^(.*)$ frontend/web/$1 [L] 
+</IfModule>
+
+# Deny accessing below extensions
+<Files ~ "(.lock|.git)">
+Order allow,deny
+Deny from all
+</Files>
+
+# Deny accessing dot files
+RewriteRule (^\.|/\.) - [F]
