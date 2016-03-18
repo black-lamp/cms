@@ -2,12 +2,12 @@
     "name": "black-lamp/cms",
     "description": "Black Lamp CMS project",
     "keywords": ["yii2", "cms"],
-    "homepage": "https://github.com/black-lamp/cms",
+    "homepage": "https://github.com/black-lamp/yii2-bl-cms",
     "type": "project",
     "license": "GNU General Public License",
     "support": {
-        "issues": "https://github.com/black-lamp/cms/issues?state=open",
-        "source": "https://github.com/black-lamp/cms"
+        "issues": "https://github.com/black-lamp/yii2-bl-cms/issues?state=open",
+        "source": "https://github.com/black-lamp/yii2-bl-cms"
     },
     "minimum-stability": "dev",
     "require": {
@@ -15,7 +15,7 @@
         "yiisoft/yii2": ">=2.0.6",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
-        "black-lamp/yii2-seo": "*"
+        "black-lamp/yii2-articles": "*"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

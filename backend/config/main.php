@@ -12,10 +12,14 @@ return [
     'bootstrap' => ['log'],
     'controllerNamespace' => 'backend\controllers',
 
+
     'homeUrl' => '/admin',
     'defaultRoute' => 'dashboard',
     'modules' => [
-        // TODO: require modules
+        'articles' => [
+            'class' => 'bl\articles\Module',
+            'multiLanguage' => false
+        ]
     ],
     'components' => [
         'user' => [
@@ -33,6 +37,9 @@ return [
         ],
         'errorHandler' => [
             'errorAction' => 'site/error',
+        ],
+        'request' => [
+            'baseUrl' => '/admin',
         ],
         'urlManager' => [
             'baseUrl' => '/admin',
