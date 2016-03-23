@@ -15,7 +15,9 @@
         "yiisoft/yii2": ">=2.0.6",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
-        "black-lamp/yii2-articles": "*"
+
+        "black-lamp/yii2-articles": "*",
+        "black-lamp/blcms-languages": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

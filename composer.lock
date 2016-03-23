@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1c11404c9aa33b11651123de14aa9d5f",
-    "content-hash": "459799adb0712e1ab9766f19a47b7416",
+    "hash": "becbb66ec52612ba0c9da80394818d81",
+    "content-hash": "dd3189ad96c0c56e787243b4c9df757f",
     "packages": [
         {
             "name": "2amigos/yii2-tinymce-widget",
@@ -68,17 +68,56 @@
             "time": "2015-03-28 21:53:43"
         },
         {
+            "name": "black-lamp/blcms-languages",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/black-lamp/blcms-languages.git",
+                "reference": "d2fc8ed895c2bf8bd6861581564944183a6cb76f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/black-lamp/blcms-languages/zipball/d2fc8ed895c2bf8bd6861581564944183a6cb76f",
+                "reference": "d2fc8ed895c2bf8bd6861581564944183a6cb76f",
+                "shasum": ""
+            },
+            "require": {
+                "black-lamp/yii2-multi-lang": "*",
+                "yiisoft/yii2": ">=2.0.4"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "bl\\cms\\language\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Gutsulyak Vadim",
+                    "email": "guts.vadim@gmail.com"
+                }
+            ],
+            "description": "Black-Lamp CMS languages module.",
+            "keywords": [
+                "black-lamp",
+                "cms",
+                "languages"
+            ],
+            "time": "2016-03-23 14:37:12"
+        },
+        {
             "name": "black-lamp/yii2-articles",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/black-lamp/yii2-articles.git",
-                "reference": "4c98adb9869d202fdacec6ca549bcceac7ca4fac"
+                "reference": "0e5b41b2555a4b4acf8adcf4cf6f2f9c2b58b96c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/black-lamp/yii2-articles/zipball/4c98adb9869d202fdacec6ca549bcceac7ca4fac",
-                "reference": "4c98adb9869d202fdacec6ca549bcceac7ca4fac",
+                "url": "https://api.github.com/repos/black-lamp/yii2-articles/zipball/0e5b41b2555a4b4acf8adcf4cf6f2f9c2b58b96c",
+                "reference": "0e5b41b2555a4b4acf8adcf4cf6f2f9c2b58b96c",
                 "shasum": ""
             },
             "require": {
@@ -107,7 +146,7 @@
                 "articles",
                 "yii2"
             ],
-            "time": "2016-03-18 13:58:59"
+            "time": "2016-03-23 10:28:45"
         },
         {
             "name": "black-lamp/yii2-multi-lang",
@@ -115,12 +154,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/black-lamp/yii2-multi-lang.git",
-                "reference": "cc31bf10004f4947ecbad0871d9c661b42185af2"
+                "reference": "f4ba735ec173b13ece0dc54ae108da0be3e05f62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/black-lamp/yii2-multi-lang/zipball/5f767d1b0fe41f9e441e55c6f074dbbccac6e79e",
-                "reference": "cc31bf10004f4947ecbad0871d9c661b42185af2",
+                "url": "https://api.github.com/repos/black-lamp/yii2-multi-lang/zipball/f4ba735ec173b13ece0dc54ae108da0be3e05f62",
+                "reference": "f4ba735ec173b13ece0dc54ae108da0be3e05f62",
                 "shasum": ""
             },
             "require": {
@@ -146,7 +185,7 @@
                 "urlmanager",
                 "yii2"
             ],
-            "time": "2016-03-17 15:56:11"
+            "time": "2016-03-23 11:58:56"
         },
         {
             "name": "black-lamp/yii2-seo",
@@ -154,12 +193,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/black-lamp/yii2-seo.git",
-                "reference": "8b547888b8b9812e134ba9867f66d460bc14981e"
+                "reference": "231a4f197acd55868d21fff66eb7150150e2ff17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/black-lamp/yii2-seo/zipball/8b547888b8b9812e134ba9867f66d460bc14981e",
-                "reference": "8b547888b8b9812e134ba9867f66d460bc14981e",
+                "url": "https://api.github.com/repos/black-lamp/yii2-seo/zipball/231a4f197acd55868d21fff66eb7150150e2ff17",
+                "reference": "231a4f197acd55868d21fff66eb7150150e2ff17",
                 "shasum": ""
             },
             "require": {
@@ -183,7 +222,7 @@
                 "seo",
                 "yii2"
             ],
-            "time": "2016-03-16 15:21:48"
+            "time": "2016-03-18 16:10:03"
         },
         {
             "name": "bower-asset/bootstrap",
@@ -586,7 +625,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/7d87dc78efb5fbbec3d94bce015e638b39ce5b4f",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/428b7b2bfaa885262976265824a9cf4ec9fc5425",
                 "reference": "7d87dc78efb5fbbec3d94bce015e638b39ce5b4f",
                 "shasum": ""
             },
@@ -680,7 +719,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/361bd63975beefdb1f87a36f96957de67023f865",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/e64170ffa5678be6cb8c3decf92feac8142aa523",
                 "reference": "4133d6b26f48615de38ea1ec04eb00c4b7057bc9",
                 "shasum": ""
             },
@@ -730,7 +769,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/d33d1046a5951f2f7823fe343f28ddc58b3421a4",
+                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/348122de0b2c2e343b579f93fcda1da78cab4912",
                 "reference": "d33d1046a5951f2f7823fe343f28ddc58b3421a4",
                 "shasum": ""
             },
@@ -777,7 +816,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-swiftmailer/zipball/26b30d94b44dc290d5ad1ecbec946e09fc275306",
+                "url": "https://api.github.com/repos/yiisoft/yii2-swiftmailer/zipball/20775fef1047cd927908270a8d7983580304eb57",
                 "reference": "2cca1bb86444a6438b0720f8c60120a400982366",
                 "shasum": ""
             },
@@ -856,7 +895,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/588da2fff1b9da3acb9b6e1d7395e820102bde01",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/bb09cf8982f89b50bb8bc6c0f9e451353ad17065",
                 "reference": "588da2fff1b9da3acb9b6e1d7395e820102bde01",
                 "shasum": ""
             },
@@ -940,7 +979,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-codeception/zipball/865034d374852b22c3dceaa0f64f8709ab4b43b0",
+                "url": "https://api.github.com/repos/yiisoft/yii2-codeception/zipball/e01b3c46917b3f00c42f6a4aabf612cc36d792e6",
                 "reference": "ee239c244fd011f11c8827f97ebe7600d03f1841",
                 "shasum": ""
             },
@@ -985,7 +1024,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/78d03b5b4dd74744779ddb7843463e81e996b435",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/081795536b31d29106b0d1de0cb3aefa3e05e995",
                 "reference": "b258732b10a706d3fa41829f13be727e49dabd09",
                 "shasum": ""
             },
@@ -1032,7 +1071,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-faker/zipball/186c77214e0a4b75f10380b4e6e5f82788922cb7",
+                "url": "https://api.github.com/repos/yiisoft/yii2-faker/zipball/a8daa97749e7154d91676405a1c59ed81e1ca999",
                 "reference": "186c77214e0a4b75f10380b4e6e5f82788922cb7",
                 "shasum": ""
             },
@@ -1079,7 +1118,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/8cc683206e2d3e4202bee7acaeec1dbc6892055b",
+                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/989d6c52c92e51f0d562729c329ee1012191cba2",
                 "reference": "fed0f3b43b9dab333978e8394ee05cfd84d438b2",
                 "shasum": ""
             },
@@ -1125,7 +1164,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "black-lamp/blcms-languages": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
