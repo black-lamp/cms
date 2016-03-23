@@ -19,7 +19,10 @@ return [
         'articles' => [
             'class' => 'bl\articles\Module',
             'multiLanguage' => false
-        ]
+        ],
+        'languages' => [
+            'class' => 'bl\cms\language\Module'
+        ],
     ],
     'components' => [
         'user' => [
