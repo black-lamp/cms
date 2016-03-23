@@ -39,6 +39,9 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                [
+                    'class' => \bl\articles\UrlRule::className()
+                ]
             ],
         ],
     ],

@@ -7,6 +7,7 @@ use backend\assets\AppAsset;
 use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
+use yii\helpers\Url;
 use yii\widgets\Breadcrumbs;
 use common\widgets\Alert;
 
@@ -35,9 +36,21 @@ AppAsset::register($this);
         ],
     ]);
     $menuItems = [
-        ['label' => 'Home', 'url' => ['/site/index']],
+        [
+            'label' => 'Materials',
+            'items' => [
+                [
+                    'label' => 'Articles',
+                    'url' => Url::toRoute(['/articles/article'])
+                ],
+                [
+                    'label' => 'Article Categories',
+                    'url' => Url::toRoute(['/articles/category'])
+                ],
+            ]
+        ],
     ];
-    if (Yii::$app->user->isGuest) {
+    /*if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
     } else {
         $menuItems[] = '<li>'
@@ -48,7 +61,7 @@ AppAsset::register($this);
             )
             . Html::endForm()
             . '</li>';
-    }
+    }*/
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => $menuItems,
