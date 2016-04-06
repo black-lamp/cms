@@ -12,7 +12,6 @@ return [
     'bootstrap' => ['log'],
     'controllerNamespace' => 'backend\controllers',
 
-
     'homeUrl' => '/admin',
     'defaultRoute' => 'dashboard',
     'modules' => [
@@ -45,6 +44,7 @@ return [
             'baseUrl' => '/admin',
         ],
         'urlManager' => [
+            'class' => 'bl\multilang\MultiLangUrlManager',
             'baseUrl' => '/admin',
             'enablePrettyUrl' => true,
             'showScriptName' => false,
