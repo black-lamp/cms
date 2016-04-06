@@ -9,21 +9,21 @@
         "issues": "https://github.com/black-lamp/yii2-bl-cms/issues?state=open",
         "source": "https://github.com/black-lamp/yii2-bl-cms"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=5.4.0",
-        "yiisoft/yii2": ">=2.0.6",
+        "yiisoft/yii2": "2.0.7",
         "yiisoft/yii2-bootstrap": "*",
-        "yiisoft/yii2-swiftmailer": "*",
-
-        "black-lamp/yii2-articles": "*",
-        "black-lamp/blcms-languages": "dev-master"
+        "yiisoft/yii2-swiftmailer": "*"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
         "yiisoft/yii2-debug": "*",
         "yiisoft/yii2-gii": "*",
-        "yiisoft/yii2-faker": "*"
+        "yiisoft/yii2-faker": "*",
+
+        "black-lamp/yii2-articles": "*",
+        "black-lamp/blcms-languages": "dev-master"
     },
     "config": {
         "process-timeout": 1800

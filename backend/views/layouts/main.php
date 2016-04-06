@@ -52,7 +52,7 @@ AppAsset::register($this);
                     'url' => Url::toRoute(['/articles/category'])
                 ],
             ]
-        ],
+        ]
     ];
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
