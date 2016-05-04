@@ -22,6 +22,9 @@ return [
         'languages' => [
             'class' => 'bl\cms\language\Module'
         ],
+        'redirect' => [
+            'class' => 'bl\cms\redirect\Module'
+        ],
     ],
     'components' => [
         'user' => [
