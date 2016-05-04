@@ -14,7 +14,9 @@ return [
 
     'homeUrl' => '/',
     'modules' => [
-        // TODO: require modules
+        'articles' => [
+            'class' => \bl\articles\frontend\Module::className()
+        ]
     ],
 
     'components' => [

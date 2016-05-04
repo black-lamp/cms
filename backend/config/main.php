@@ -16,8 +16,7 @@ return [
     'defaultRoute' => 'dashboard',
     'modules' => [
         'articles' => [
-            'class' => 'bl\articles\Module',
-            'multiLanguage' => false
+            'class' => 'bl\articles\backend\Module'
         ],
         'languages' => [
             'class' => 'bl\cms\language\Module'
