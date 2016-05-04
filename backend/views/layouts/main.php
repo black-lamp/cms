@@ -37,10 +37,6 @@ AppAsset::register($this);
     ]);
     $menuItems = [
         [
-            'label' => 'Languages',
-            'url' => Url::toRoute(['/languages'])
-        ],
-        [
             'label' => 'Materials',
             'items' => [
                 [
@@ -50,6 +46,19 @@ AppAsset::register($this);
                 [
                     'label' => 'Article Categories',
                     'url' => Url::toRoute(['/articles/category'])
+                ],
+            ]
+        ],
+        [
+            'label' => 'Settings',
+            'items' => [
+                [
+                    'label' => 'Languages',
+                    'url' => Url::toRoute(['/languages'])
+                ],
+                [
+                    'label' => 'Redirects',
+                    'url' => Url::toRoute(['/redirect'])
                 ],
             ]
         ]
