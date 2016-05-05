@@ -23,7 +23,7 @@
         "yiisoft/yii2-gii": "*",
         "yiisoft/yii2-faker": "*",
 
-        "black-lamp/yii2-articles": "0.2",
+        "black-lamp/yii2-articles": "0.3",
         "black-lamp/blcms-redirect": "0.0.2",
         "black-lamp/blcms-languages": "dev-master"
     },
