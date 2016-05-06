@@ -72,6 +72,7 @@ return [
                 ]*/
                 [
                     'class' => 'bl\articles\UrlRule',
+                    //'prefix' => 'articles/'
                 ]
             ],
         ],
