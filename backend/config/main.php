@@ -12,6 +12,9 @@ return [
     'bootstrap' => ['log'],
     'controllerNamespace' => 'backend\controllers',
 
+    'language' => 'ru',
+    'sourceLanguage' => 'ru',
+
     'homeUrl' => '/admin',
     'defaultRoute' => 'dashboard',
     'modules' => [
@@ -24,8 +27,23 @@ return [
         'redirect' => [
             'class' => 'bl\cms\redirect\Module'
         ],
+        'shop' => [
+            'class' => 'bl\cms\shop\backend\Module',
+        ],
     ],
     'components' => [
+        'i18n' => [
+            'translations' => [
+                '*' => [
+                    'class' => 'yii\i18n\PhpMessageSource',
+                    'basePath' => '@backend/messages',
+                    'sourceLanguage' => 'uk',
+                    'fileMap' => [
+                        'shop' => 'shop.php'
+                    ],
+                ],
+            ],
+        ],
         'user' => [
             'identityClass' => 'common\models\User',
             'enableAutoLogin' => true,
@@ -51,6 +69,15 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+            ],
+        ],
+        'view' => [
+            'theme' => [
+                'basePath' => '@backend/themes/' . $params['themeName'],
+                'baseUrl' => '@web/themes/' . $params['themeName'],
+                'pathMap' => [
+                    '@vendor/black-lamp/blcms-shop/backend/views' => '@backend/themes/' . $params['themeName'] . '/modules/blcms-shop/views'
+                ],
             ],
         ],
     ],
