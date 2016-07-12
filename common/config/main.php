@@ -34,6 +34,23 @@ return [
                             ]
                         ]
                     ],
+                    'shop-vendors' => [
+                        'origin' => false,
+                        'size' => [
+                            'big' => [
+                                'width' => 1500,
+                                'height' => 500
+                            ],
+                            'thumb' => [
+                                'width' => 500,
+                                'height' => 500,
+                            ],
+                            'small' => [
+                                'width' => 100,
+                                'height' => 100
+                            ]
+                        ]
+                    ],
                     'cover' => [
                         'origin' => false,
                         'size' => [
