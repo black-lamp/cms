@@ -29,5 +29,7 @@ return [
     'Type' => 'Тип',
     'Menu item' => 'Пункт меню',
     'Thumbnail' => 'Миниатюра',
-    'Cover' => 'Баннер'
+    'Cover' => 'Баннер',
+    'Add new category' => 'Добавление новой категории',
+    'Add category translation' => 'Добавление перевода для категории'
 ];
