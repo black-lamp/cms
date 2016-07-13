@@ -13,7 +13,7 @@ return [
     'Name' => 'Название',
     'Parent category' => 'Родительская категория',
     'Position' => 'Позиция',
-    'Image preview' => 'Предпросмотр изображения',
+    'Image preview' => 'Миниатюра',
     'Image URL' => 'URL картинки',
     'Actions' => 'Действия',
     'Save' => 'Сохранить',
