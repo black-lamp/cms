@@ -37,5 +37,6 @@ return [
     'Edit' => 'Редактировать',
     'Delete' => 'Удалить',
     'Product categories' => 'Категории товаров',
-    'Categories list' => 'Список категорий'
+    'Categories list' => 'Список категорий',
+    'Without parent' => 'Без категории'
 ];
