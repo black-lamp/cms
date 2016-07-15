@@ -31,5 +31,11 @@ return [
     'Thumbnail' => 'Миниатюра',
     'Cover' => 'Баннер',
     'Add new category' => 'Добавление новой категории',
-    'Add category translation' => 'Добавление перевода для категории'
+    'Add category translation' => 'Добавление перевода для категории',
+    'Parent' => 'Родительская категория',
+    'Language' => 'Язык',
+    'Edit' => 'Редактировать',
+    'Delete' => 'Удалить',
+    'Product categories' => 'Категории товаров',
+    'Categories list' => 'Список категорий'
 ];
