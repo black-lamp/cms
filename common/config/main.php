@@ -42,12 +42,12 @@ return [
                                 'height' => 500
                             ],
                             'thumb' => [
-                                'width' => 500,
-                                'height' => 500,
+                                'width' => 320,
+                                'height' => 240,
                             ],
                             'small' => [
-                                'width' => 100,
-                                'height' => 100
+                                'width' => 150,
+                                'height' => 150
                             ]
                         ]
                     ],
