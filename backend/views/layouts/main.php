@@ -37,6 +37,27 @@ AppAsset::register($this);
     ]);
     $menuItems = [
         [
+            'label' => Yii::t('shop', 'Shop'),
+            'items' => [
+                [
+                    'label' => Yii::t('shop', 'Products'),
+                    'url' => Url::toRoute(['/shop/product']),
+                ],
+                [
+                    'label' => Yii::t('shop', 'Categories'),
+                    'url' => Url::toRoute(['/shop/category']),
+                ],
+                [
+                    'label' => Yii::t('shop', 'Vendors'),
+                    'url' => Url::toRoute(['/shop/vendor'])
+                ],
+                [
+                    'label' => Yii::t('shop', 'Countries'),
+                    'url' => Url::toRoute(['/shop/country']),
+                ]
+            ]
+        ],
+        [
             'label' => 'Materials',
             'items' => [
                 [
