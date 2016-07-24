@@ -99,7 +99,6 @@ a.desc:after {
 .nav > li > form {
     padding: 8px;
 }
-
 .nav > li > form > button:hover {
     text-decoration: none;
 }
@@ -121,4 +120,9 @@ ul.ul-dropfree div.drop {
     background-position:-11px 0;
     background-repeat:no-repeat;
     cursor:pointer;
+}
+
+/*EDIT PRODUCT*/
+.nav-tabs.nav-justified > li a {
+    outline: 0 !important;
 }
