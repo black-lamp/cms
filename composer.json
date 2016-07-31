@@ -28,7 +28,9 @@
         "black-lamp/blcms-languages": "dev-master",
         "black-lamp/blcms-shop": "*",
         "marqu3s/yii2-summernote": "dev-master",
-        "black-lamp/yii2-imagable": "1.*"
+        "black-lamp/yii2-imagable": "1.*",
+
+        "yiisoft/yii2-jui": "~2.0.0"
     },
     "config": {
         "process-timeout": 1800

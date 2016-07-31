@@ -10,6 +10,8 @@ return [
     'Add' => 'Добавить',
     'Add category translation' => 'Добавление перевода для категории',
     'Add new category' => 'Добавление новой категории',
+    'Add product translation' => 'Добавление перевода для продукта',
+    'Add new product' => 'Добавление нового продукта',
     'All changes have been saved' => 'Все изменения сохранены',
     'Basic' => 'Основные',
     'Basic options' => 'Основные настройки',
@@ -25,6 +27,7 @@ return [
     'Description' => 'Описание',
     'Edit' => 'Редактировать',
     'Edit category' => 'Редактирование категории',
+    'Edit product' => 'Редактирование продукта',
     'Failed to save changes' => 'Не удалось сохранить изменения',
     'Failed to save image' => 'Не удалось сохранить изображение',
     'Full description' => 'Полное описание',
@@ -68,7 +71,4 @@ return [
     'Vendor' => 'Производитель',
     'Vendors' => 'Производители',
     'Without parent' => 'Без категории',
-    'Edit product' => 'Редактирование продукта',
-    'Add product translation' => 'Добавление перевода для продукта',
-    'Add new product' => 'Добавление нового продукта'
 ];
