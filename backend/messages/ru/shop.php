@@ -48,6 +48,7 @@ return [
     'Price' => 'Цена',
     'Prices' => 'Цены',
     'Product categories' => 'Категории товаров',
+    'Product list' => 'Список продуктов',
     'Product vendors' => 'Производители товаров',
     'Products' => 'Товары',
     'Sale' => 'Скидка',
