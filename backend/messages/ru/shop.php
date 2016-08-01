@@ -33,6 +33,7 @@ return [
     'Failed to save image' => 'Не удалось сохранить изображение',
     'File name' => 'Имя файла',
     'Full description' => 'Полное описание',
+    'ID' => 'Идентификатор',
     'Image' => 'Изображение',
     'Image preview' => 'Миниатюра',
     'Image URL' => 'URL картинки',
