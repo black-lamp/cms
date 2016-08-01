@@ -17,7 +17,7 @@ return [
             'categories' => [
                 'origin' => false,
                 'category' => [
-                    'shop-category' => [
+                    'shop-product' => [
                         'origin' => false,
                         'size' => [
                             'big' => [
