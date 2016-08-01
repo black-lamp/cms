@@ -70,6 +70,7 @@ return [
     'Type' => 'Тип',
     'Upload image' => 'Загрузите изображение',
     'Upload image or copy from web' => 'Загрузите изображение или скопируйте из сети',
+    'Upload video or insert from video-services' => 'Загрузите видео или вставьте из видео-сервисов',
     'Value' => 'Значение',
     'Vendor list' => 'Список производителей',
     'Vendor' => 'Производитель',
