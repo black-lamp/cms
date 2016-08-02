@@ -75,6 +75,7 @@ return [
     'Shop' => 'Магазин',
     'Short description' => 'Краткое описание',
     'Show' => 'Показывать',
+    'Sorry, this format is not supported' => 'Извините, данный формат не поддерживается',
     'Thumbnail' => 'Миниатюра',
     'Title' => 'Наименование',
     'Type' => 'Тип',
