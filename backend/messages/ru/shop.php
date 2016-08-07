@@ -25,6 +25,7 @@ return [
     'Countries' => 'Страны',
     'Country' => 'Страна',
     'Cover' => 'Баннер',
+    'Close' => 'Закрыть',
     'Delete' => 'Удалить',
     'Delete image' => 'Удалить изображение',
     'Description' => 'Описание',
