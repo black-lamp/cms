@@ -9,6 +9,12 @@
         "issues": "https://github.com/black-lamp/yii2-bl-cms/issues?state=open",
         "source": "https://github.com/black-lamp/yii2-bl-cms"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/black-lamp/blcms-shop.git"
+        }
+    ],
     "minimum-stability": "stable",
     "require": {
         "php": ">=5.4.0",
@@ -26,6 +32,7 @@
         "black-lamp/yii2-articles": "0.3.1",
         "black-lamp/blcms-redirect": "0.0.2",
         "black-lamp/blcms-languages": "dev-master",
+        "black-lamp/blcms-shop": "dev-master",
         "marqu3s/yii2-summernote": "dev-master",
         "black-lamp/yii2-imagable": "1.*",
 
