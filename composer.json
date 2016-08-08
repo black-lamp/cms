@@ -9,13 +9,13 @@
         "issues": "https://github.com/black-lamp/yii2-bl-cms/issues?state=open",
         "source": "https://github.com/black-lamp/yii2-bl-cms"
     },
+    "minimum-stability": "stable",
     "repositories": [
         {
             "type": "git",
             "url": "https://github.com/black-lamp/blcms-shop.git"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "2.0.7",
