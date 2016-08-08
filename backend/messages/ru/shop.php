@@ -88,4 +88,5 @@ return [
     'Vendors' => 'Производители',
     'Video' => 'Видео',
     'Without parent' => 'Без категории',
+    'You must save new product before this action' => 'Сперва вы должны сохранить новый продукт'
 ];
