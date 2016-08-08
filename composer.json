@@ -26,7 +26,6 @@
         "black-lamp/yii2-articles": "0.3.1",
         "black-lamp/blcms-redirect": "0.0.2",
         "black-lamp/blcms-languages": "dev-master",
-        "black-lamp/blcms-shop": "*",
         "marqu3s/yii2-summernote": "dev-master",
         "black-lamp/yii2-imagable": "1.*",
 
