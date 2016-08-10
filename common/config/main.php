@@ -102,6 +102,23 @@ return [
                             ]
                         ]
                     ],
+                    'social' => [
+                        'origin' => true,
+                        'size' => [
+                            'big' => [
+                                'width' => 1500,
+                                'height' => 500
+                            ],
+                            'thumb' => [
+                                'width' => 500,
+                                'height' => 500,
+                            ],
+                            'small' => [
+                                'width' => 150,
+                                'height' => 150
+                            ]
+                        ]
+                    ],
                 ]
             ]
         ]
