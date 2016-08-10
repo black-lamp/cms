@@ -18,6 +18,10 @@
         {
             "type": "git",
             "url": "https://github.com/xalberteinsteinx/yii2-input-tree.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/black-lamp/yii2-articles.git"
         }
     ],
     "require": {

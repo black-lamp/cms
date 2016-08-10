@@ -1,7 +1,6 @@
 <?php
 /**
  * @author Albert Gainutdinov <xalbert.einsteinx@gmail.com>
-
  * Translations for admin panel part Shop Module.
  *
  */
@@ -38,6 +37,7 @@ return [
     'Full description' => 'Полное описание',
     'ID' => 'Идентификатор',
     'Image' => 'Изображение',
+    'Images' => 'Изображения',
     'Image preview' => 'Миниатюра',
     'Image URL' => 'URL картинки',
     'Image link' => 'Ссылка на изображение',
