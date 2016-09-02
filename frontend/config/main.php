@@ -77,8 +77,5 @@ return [
             ],
         ],
     ],
-    'as RedirectBehavior' => [
-        'class' => 'bl\cms\redirect\behaviors\RedirectBehavior'
-    ],
     'params' => $params,
 ];
